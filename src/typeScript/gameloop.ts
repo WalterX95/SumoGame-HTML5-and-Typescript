@@ -50,9 +50,9 @@ let gameOver = false;
 let maxScore = localStorage.getItem("maxScore") ? parseInt(localStorage.getItem("maxScore")!) : 0;
 
 // Audio
-const goodSound = new Audio('./src/audio/good.wav');
-const badSound = new Audio('./src/audio/bad.wav');
-const explosionSound = new Audio('./src/audio/explosion.wav');
+const goodSound = new Audio('./src/sound/good.mp3');
+const badSound = new Audio('./src/sound/bad.mp3');
+const explosionSound = new Audio('./src/sound/explosion.mp3');
 
 // Eventi tastiera
 document.addEventListener("keydown", (e) => {

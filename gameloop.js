@@ -29,9 +29,9 @@ var paused = false;
 var gameOver = false;
 var maxScore = localStorage.getItem("maxScore") ? parseInt(localStorage.getItem("maxScore")) : 0;
 // Audio
-var goodSound = new Audio('./src/audio/good.wav');
-var badSound = new Audio('./src/audio/bad.wav');
-var explosionSound = new Audio('./src/audio/explosion.wav');
+var goodSound = new Audio('./src/sound/good.mp3');
+var badSound = new Audio('./src/sound/bad.mp3');
+var explosionSound = new Audio('./src/sound/explosion.mp3');
 // Eventi tastiera
 document.addEventListener("keydown", function (e) {
     keys[e.key] = true;
